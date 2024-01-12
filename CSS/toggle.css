@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+html body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.header {
+  z-index: 1;
+}
+
+.main {
+  height: 100%;
+  margin-top: 30px;
+  padding: 10px 100px;
+ 
+  
+}
+
+#sidemenu {
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px;
+  margin-top: 70px;
+  background-color: rgb(19, 19, 57);
+  
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+.menu li a {
+  text-decoration: none;
+  display: block;
+  color: whitesmoke;
+  padding: 20px;
+  font-family: "roboto", sans-serif;
+}
+
+.menu li a:hover {
+  color: #fac100;
+  font-weight: bolder;
+}
+
+.admin {
+  font-family: "roboto", sans-serif;
+  font-size: 40px;
+
+  padding: 10px 500px;
+  
+}
+
+.contentTable {
+  border-collapse: collapse;
+  color: rgb(19, 19, 57);
+  margin: 1px 0;
+  min-width: 600px;
+  font-family: "roboto", sans-serif;
+  border-radius: 5px 5px 0 0 ;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0,0,0,0.15)
+  
+}
+.contentTable th {
+  background-color: rgb(19, 19, 57);
+  color: whitesmoke;
+  text-align: left;
+  
+
+}
+.contentTable th,
+.contentTable  td{
+    padding: 12px 15px;
+
+}
+
+.contentTable  td{
+    border-bottom: 1px solid #dddddd;
+}
+
+.contentTable tr:nth-of-type(odd){
+    background-color: #f3f3f3;
+} 
+.contentTable tr:last-of-type{
+    border-bottom: 2px solid rgb(19, 19, 57);
+} 
+
+.edit{
+  background-color: #fac100;
+  width: 100px;
+  height: 35px;
+  border: none;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bolder;
+  padding: 8px 5px;
+  color: black;
+  transition: 0.5s;
+
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.15);
+  text-decoration: none;
+  display: block;
+
+}
